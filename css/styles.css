@@ -1,0 +1,7 @@
+@import './styles.css';
+@import './main.css';
+
+
+html, body {
+    scroll-behavior: smooth;
+}    

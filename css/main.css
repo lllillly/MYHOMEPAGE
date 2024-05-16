@@ -1,0 +1,90 @@
+body {
+    overflow: scroll;
+    font-family: "Sunflower", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #F3E8EB;
+}
+
+header {
+    height: 75px;
+    background: rgba(146, 132, 144, 0.5);
+    border-bottom: 3px solid #928490;
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sign{
+    margin-left: 30px;
+    width: 70px;
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+ul li {
+    margin: 0 30px; /* 메뉴 아이템 간의 간격 조정 */
+}
+
+ul li a {
+    text-decoration: none;
+    color: #433E49;
+    font-size: 15px;
+}
+
+/* styles.css */
+
+ul li a:hover {
+    color: #DBC1AD;
+    border-radius: 30px; /* 둥근 모서리 */
+    padding: 10px 20px; /* 간격 조정 */
+    font-size: larger;
+    background-color: #433E49;
+}
+
+
+.blank {
+    margin-top: 75px;
+}
+
+.ct {
+    text-decoration: none;
+    color: #433E49;
+    font-size: 30px;
+    font-style: italic;
+    margin: 35px;
+}
+
+.content{
+    text-align: center;
+}
+
+/*page1*/
+
+#mainh1{
+    font-size: 150px;
+}
+
+#conp{
+    font-size: 20px;
+}
+
+/*page2*/
+#aboutimg{
+    width: 300px;
+}
