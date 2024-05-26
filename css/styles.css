@@ -1,7 +1,20 @@
 @import './styles.css';
 @import './main.css';
-
+@import './home.css';
+@import './about.css';
+@import './tech.css';
+@import './portpolio.css';
+@import './contact.css';
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 html, body {
     scroll-behavior: smooth;
-}    
+}
+
+body {
+    overflow: scroll;
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}

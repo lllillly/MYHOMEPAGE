@@ -1,29 +1,19 @@
-body {
-    overflow: scroll;
-    font-family: "Sunflower", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    background-color: #F3E8EB;
-}
-
 header {
     height: 75px;
-    background: rgba(146, 132, 144, 0.5);
-    border-bottom: 3px solid #928490;
+    background: rgba(114, 150, 195, 0.2);
     font-weight: bold;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
-
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-#sign{
+#sign {
     margin-left: 30px;
     width: 70px;
     height: 50px;
@@ -43,48 +33,51 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: #433E49;
+    color: #234a65;
     font-size: 15px;
 }
 
-/* styles.css */
-
 ul li a:hover {
-    color: #DBC1AD;
+    color: #e7edf2;
     border-radius: 30px; /* 둥근 모서리 */
     padding: 10px 20px; /* 간격 조정 */
     font-size: larger;
-    background-color: #433E49;
+    background-color: #446c89;
 }
-
 
 .blank {
     margin-top: 75px;
 }
 
-.ct {
-    text-decoration: none;
-    color: #433E49;
-    font-size: 30px;
-    font-style: italic;
-    margin: 35px;
-}
-
-.content{
+.content {
     text-align: center;
 }
 
-/*page1*/
-
-#mainh1{
-    font-size: 150px;
+.content_subject_page {
+    height: 100vh;
+    border: 1px solid #ADD3EE;
+    background-image: url('../images/cloudy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-#conp{
-    font-size: 20px;
+#footer{
+    background-color: #ADD3EE;
+    height: 5vh;
 }
 
-/*page2*/
-#aboutimg{
-    width: 300px;
+.scroll_txt_contain{
+    height: 30px;
+}
+
+.scroll_txt {
+    color: #446c89;
+    font-size: 1.5em;
+    margin-top: 150px;
+    font-weight: 600;
+}
+
+.scroll_txt:hover{
+    font-size: 2em;
+    cursor: pointer;
 }

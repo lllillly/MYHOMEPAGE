@@ -1,0 +1,68 @@
+/* home.css */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+    background-image: url('../images/cloudy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.web-developer {
+    font-size: 9em;
+    color: #ffffff;
+    font-weight:900;
+    text-shadow: 4px 4px 8px #ADD3EE;
+}
+
+#mainh1 {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+
+#home a {
+    text-decoration: none;
+    color: #2c6186;
+    font-size: 15px;
+}
+
+#home a:hover {
+    color: #234a65;
+    border-radius: 30px; /* 둥근 모서리 */
+    font-size: 20px;
+}
+
+#text_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 2rem;
+}
+
+.home_text{
+    margin-top: 30px;
+    color: #446c89;
+    text-shadow: 4px 4px 8px #ADD3EE;
+}
+
+.blink {
+    animation: blink 0.5s infinite;
+    font-size: 1.5rem;
+}
+@keyframes blink {
+    to {
+      opacity: 0;
+    }
+}
+
+.text_box{
+    height: 30px;
+}
+

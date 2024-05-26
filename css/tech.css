@@ -1,0 +1,40 @@
+/* Page 3 */
+#tech .card {
+    height: 35vh;
+    background-color: #ADD3EEa3;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px #234a65a3;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    margin: 10px;
+}
+
+#tech .card:hover {
+    box-shadow: 0 8px 16px #234a65a3;
+    transform: translateY(-5px);
+}
+
+#tech .card-title {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#tech .card-text {
+    color: #234a65;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    height: 0; /* 초기에는 숨김 */
+    overflow: hidden;
+    transition: height 0.3s ease;
+    font-size: 15px;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card:hover .card-text {
+    height: auto; /* 호버 시 내용 표시 */
+}

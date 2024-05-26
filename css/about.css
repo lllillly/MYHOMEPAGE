@@ -1,0 +1,61 @@
+/* Page 2 */
+#about{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about p{
+    color: #234a65;
+    padding: 3px;
+}
+
+#about_card{
+    margin: 5% 10%;
+    width: 80%;
+    height: 60vh;
+    background-color: #ADD3EEa3;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#about img{
+    width: 70%;
+    border-radius: 100%;
+    opacity: 0.88;
+}
+
+
+#about_card_left{
+    width: 35%;
+    border-right: 1px solid;
+}
+
+#about_card_blank{
+    width: 10%;
+}
+
+#about_card_right1{
+    width: 25%;
+    text-align: start;
+    margin-top: 20px;
+}
+
+#about_card_right2{
+    width: 40%;
+    text-align: start;
+}
+
+.ct{
+    text-decoration: none;
+    color: #234a65;
+    font-weight: 800;
+}
+
+.ct:hover{
+    color: #e7edf2;
+}
