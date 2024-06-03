@@ -1,10 +1,4 @@
-# 프로젝트 이름
-
-<p align="center">
-  <br>
-  <h3>HJ</h3>
-  <br>
-</p>
+# HJ'S HOMEPAGE
 
 ## 목차
 
