@@ -2,13 +2,14 @@
 
 <p align="center">
   <br>
-  <img src="/Users/user/Documents/대학/3-1/웹프로그래밍/webproject/images/hjsign.png" alt="HJ's Logo" />
+  <h3>HJ</h3>
   <br>
 </p>
 
 ## 목차
 
 - [THEME COLOR](#theme-color)
+- [내용](#dialog)
 
 ## THEME COLOR
 
@@ -19,3 +20,7 @@
 - ![#2c6186](https://via.placeholder.com/15/2c6186/000000?text=+) 조금 더 진한 하늘 #2c6186
 - ![#234a65](https://via.placeholder.com/15/234a65/000000?text=+) 완전 진한 하늘 #234a65
 - ![#add3ee7b](https://via.placeholder.com/15/add3ee7b/000000?text=+) 투명도 조절 #add3ee7b
+
+## dialog
+
+- 내용~
