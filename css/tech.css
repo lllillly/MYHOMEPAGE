@@ -1,40 +1,121 @@
-/* Page 3 */
-#tech .card {
-    height: 35vh;
-    background-color: #ADD3EEa3;
-    border-radius: 15px;
-    box-shadow: 0 2px 4px #234a65a3;
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
-    margin: 10px;
+/* tech */
+
+.tech_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../images/cloudy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-#tech .card:hover {
-    box-shadow: 0 8px 16px #234a65a3;
+.techbox {
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.tech_title {
+    color: #234a65;
+    background-color: #add3ee7b;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#current-time {
+    color: #234a658d;
+}
+
+#tech h2 {
+    color: #446c89;
+}
+
+.techbox h2 {
+    margin-top: 70px;
+    color: #234a658d;
+}
+
+.techbox .card {
+    width: 90%;
+    max-width: 600px;
+    background: rgba(173, 211, 238, 0.65);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(35, 74, 101, 0.15);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.techbox .card:hover {
+    box-shadow: 0 8px 16px rgba(35, 74, 101, 0.35);
     transform: translateY(-5px);
 }
 
-#tech .card-title {
+.techbox .card-title {
     font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#tech .card-text {
     color: #234a65;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
 }
 
-.card-text {
-    height: 0; /* 초기에는 숨김 */
+.techbox .card-text {
+    color: #000000;
+    margin-bottom: 20px;
+    height: 0;
     overflow: hidden;
     transition: height 0.3s ease;
-    font-size: 15px;
+    font-size: 1em;
+
+    text-align: start;
 }
 
-.card:hover{
+.techbox .card:hover {
     cursor: pointer;
 }
 
-.card:hover .card-text {
-    height: auto; /* 호버 시 내용 표시 */
+.techbox .card:hover .card-text {
+    height: auto;
+}
+
+.techbox .tech_btn_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#back_btn {
+    background-color: #446c89;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1em;
+    transition: background-color 0.3s, font-size 0.3s;
+}
+
+#back_btn:hover {
+    font-size: larger;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: #446c89;
+}
+
+#di_span{
+    color: #234a65;
+    border-bottom: 1px solid #234a65;
 }

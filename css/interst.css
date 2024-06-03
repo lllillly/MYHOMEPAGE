@@ -1,0 +1,127 @@
+/* interest.css */
+
+.inte_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../images/cloudy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.interest_box {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+#inte_end_p {
+    font-weight: 800;
+}
+
+.inte_title {
+    color: #234a65;
+    background-color: #add3ee7b;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.interest_box p {
+    color: #555;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.inte_list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+#inte_end_list {
+    margin: 20px;
+}
+
+.highlight {
+    color: #e7edf2;
+    font-weight: bold;
+    background: #446c89;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    background-color: #ADD3EE;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #234a65;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+}
+
+.inte_company {
+    width: 90%;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.inte_company:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.inte_company img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.company_info {
+    flex: 1;
+}
+
+.company_info p {
+    margin: 5px 0;
+}
+
+.company_info a {
+    color: #446c89;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.company_info a:hover {
+    color: #234a65;
+}

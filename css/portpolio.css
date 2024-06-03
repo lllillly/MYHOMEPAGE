@@ -1,7 +1,0 @@
-/* page4 */
-canvas#techCanvas {
-    /* border: 3px solid #234a65; */
-    border-radius: 10px; /* 둥근 테두리 */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
-    background-color: #e7edf275; /* 차분한 톤의 배경색 */
-}

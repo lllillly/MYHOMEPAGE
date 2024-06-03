@@ -1,3 +1,4 @@
+/* main.css */
 header {
     height: 75px;
     background: rgba(114, 150, 195, 0.2);
@@ -19,7 +20,7 @@ header {
     height: 50px;
 }
 
-ul {
+header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -28,7 +29,7 @@ ul {
 }
 
 ul li {
-    margin: 0 30px; /* 메뉴 아이템 간의 간격 조정 */
+    margin: 0 30px;
 }
 
 ul li a {
@@ -39,8 +40,8 @@ ul li a {
 
 ul li a:hover {
     color: #e7edf2;
-    border-radius: 30px; /* 둥근 모서리 */
-    padding: 10px 20px; /* 간격 조정 */
+    border-radius: 30px;
+    padding: 10px 20px;
     font-size: larger;
     background-color: #446c89;
 }
@@ -80,4 +81,27 @@ ul li a:hover {
 .scroll_txt:hover{
     font-size: 2em;
     cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    #sign{
+        display: none;
+    }
+    
+    header{
+        top: 0px;
+        display: flex;
+        width: 30%;
+        flex-direction: column;
+        height: 30vh;
+    }
+
+    header ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header li{
+        margin: 5px 0px;
+    }
 }

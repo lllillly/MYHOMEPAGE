@@ -1,0 +1,89 @@
+.mypro_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../images/cloudy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.myproject_box {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.myproject_box h3 {
+    color: #446c89;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px #add3ee7b;
+}
+
+.project {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.project_img {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.hover_img {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project_img:hover + .hover_img {
+    display: block;
+    opacity: 1;
+}
+
+
+.myproject_box .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    box-shadow: none;
+    background: none;
+}
+
+.myproject_box .card-img-top {
+    flex: 1;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.myproject_box .card-body {
+    flex: none;
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+    background-color: #fff;
+}

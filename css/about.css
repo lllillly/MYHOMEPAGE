@@ -59,3 +59,27 @@
 .ct:hover{
     color: #e7edf2;
 }
+
+@media screen and (max-width: 600px) {
+    #about_card {
+        width: 100%;
+        margin: 5% auto;
+        flex-direction: row;
+        font-size: 1rem;
+        height: auto;
+        align-items: center;
+    }
+    #about_card_right1 {
+        display: none;
+    }
+
+    #about_card_left, #about_card_right2 {
+        width: 100%;
+        text-align: left;
+        margin: 10px 0;
+    }
+
+    #about img {
+        width: 50%;
+    }
+}

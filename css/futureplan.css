@@ -1,0 +1,78 @@
+.fu_box{
+    width: 100%;
+    background-image: url('../images/cloudy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.futureplan_box {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.572);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.future_title {
+    color: #234a65;
+    background-color: #ADD3EE;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.futureplan_box p {
+    color: #446c89;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.future_plan_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.future_plan {
+    text-align: left;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.year {
+    display: block;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin: 10px 0;
+    color: #2c6186;
+}
+
+.futureplan_box ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin: 10px 0;
+    color: #555;
+}
+
+.futureplan_box li {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .future_plan_container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .future_plan {
+        width: 45%;
+    }
+}

@@ -3,8 +3,11 @@
 @import './home.css';
 @import './about.css';
 @import './tech.css';
-@import './portpolio.css';
+@import './portfolio.css';
 @import './contact.css';
+@import "./interst.css";
+@import "./futureplan.css";
+@import "./myproject.css";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 html, body {

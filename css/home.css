@@ -13,11 +13,26 @@
     background-repeat: no-repeat;
 }
 
+#home .cloudimg {
+    position: absolute;
+    bottom: 30%;
+    right: 0%;
+    width: 300px;
+    z-index: 9;
+    opacity: 0.5;
+}
+
+#home .con{
+    z-index: 10;
+}
+
+
 .web-developer {
     font-size: 9em;
     color: #ffffff;
     font-weight:900;
     text-shadow: 4px 4px 8px #ADD3EE;
+    z-index: 9;
 }
 
 #mainh1 {
@@ -34,7 +49,7 @@
 
 #home a:hover {
     color: #234a65;
-    border-radius: 30px; /* 둥근 모서리 */
+    border-radius: 30px;
     font-size: 20px;
 }
 
@@ -66,3 +81,30 @@
     height: 30px;
 }
 
+#background-music {
+    display: none;
+}
+
+#techCanvasdialog{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    #sign img {
+        width: 100px;
+        height: auto;
+    }
+    .web-developer {
+        font-size: 3em;
+    }
+    .content_subject_page {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #techCanvas{
+        display: none;
+    }
+    #techCanvasdialog{
+        display: block;
+    }
+}

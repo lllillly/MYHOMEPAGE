@@ -2,68 +2,20 @@
 
 <p align="center">
   <br>
-  <img src="/Users/user/Documents/대학/3-1/웹프로그래밍/webproject/images/hjsign.png" />
+  <img src="/Users/user/Documents/대학/3-1/웹프로그래밍/webproject/images/hjsign.png" alt="HJ's Logo" />
   <br>
 </p>
 
-목차
+## 목차
+
+- [THEME COLOR](#theme-color)
 
 ## THEME COLOR
 
-- ![#ffffff] 화이트 #ffffff
-- ![#e7edf2] 하얀계열 #e7edf2
-- ![#ADD3EE] 메인 컬러 #ADD3EE
-- ![#446c89] 조금 진한 하늘 #446c89
-- ![#2c6186] 조금 더 진한 하늘 #2c6186
-- ![#234a65] 완전 진한 하늘 #234a65
-
-## 프로젝트 소개
-
-<p align="justify">
-프로젝트 개요/동기
-</p>
-
-<p align="center">
-GIF Images
-</p>
-
-<br>
-
-## 기술 스택
-
-| JavaScript | TypeScript |  React   |  Node   |
-| :--------: | :--------: | :------: | :-----: |
-|   ![js]    |   ![ts]    | ![react] | ![node] |
-
-<br>
-
-## 구현 기능
-
-### 기능 1
-
-### 기능 2
-
-### 기능 3
-
-### 기능 4
-
-<br>
-
-## 배운 점 & 아쉬운 점
-
-<p align="justify">
-
-</p>
-
-<br>
-
-## 라이센스
-
-MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
-
-<!-- Stack Icon Refernces -->
-
-[js]: /images/stack/javascript.svg
-[ts]: /images/stack/typescript.svg
-[react]: /images/stack/react.svg
-[node]: /images/stack/node.svg
+- ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) 화이트 #ffffff
+- ![#e7edf2](https://via.placeholder.com/15/e7edf2/000000?text=+) 하얀계열 #e7edf2
+- ![#ADD3EE](https://via.placeholder.com/15/ADD3EE/000000?text=+) 메인 컬러 #ADD3EE
+- ![#446c89](https://via.placeholder.com/15/446c89/000000?text=+) 조금 진한 하늘 #446c89
+- ![#2c6186](https://via.placeholder.com/15/2c6186/000000?text=+) 조금 더 진한 하늘 #2c6186
+- ![#234a65](https://via.placeholder.com/15/234a65/000000?text=+) 완전 진한 하늘 #234a65
+- ![#add3ee7b](https://via.placeholder.com/15/add3ee7b/000000?text=+) 투명도 조절 #add3ee7b

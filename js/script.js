@@ -1,6 +1,31 @@
-// script.js
+function showImage(imageNumber) {
+  document.querySelectorAll(".tech-images img").forEach((image) => {
+    image.style.display = "none";
+  });
 
-// 초기 아이콘 색상 저장을 위한 객체
+  const selectedImage = document.querySelector(`.img${imageNumber}`);
+  selectedImage.style.display = "block";
+  selectedImage.style.margin = "auto";
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  var audio = document.getElementById("background-music");
+  var clickMessage = document.getElementById("click-message");
+  audio.volume = 0.3;
+  document.body.addEventListener(
+    "click",
+    function () {
+      audio.play();
+    },
+    { once: true }
+  );
+
+  document.body.addEventListener("click", function () {
+    audio.play();
+    clickMessage.style.display = "none";
+  });
+});
+
 var iconColors = {};
 
 window.onload = function () {
@@ -24,20 +49,16 @@ function updateTime() {
 
 setInterval(updateTime, 1000);
 
-// 기술 아이콘들 그리기
 var canvas = document.getElementById("techCanvas");
 var ctx = canvas.getContext("2d");
 
-// 아이콘 간격과 시작 좌표 설정
 var iconSpacing = 200;
 var startX = 50;
 var startY = 50;
 
-// 텍스트 크기 및 정렬 설정
 ctx.font = "bold 20px Arial";
 ctx.textAlign = "center";
 
-// 아이콘들 그리기 및 초기 색상 저장
 drawIcon("React Native", "#C84630", startX, startY);
 drawIcon("Spring", "#CE736C", startX + iconSpacing, startY);
 drawIcon("React", "#D4A0A7", startX + iconSpacing * 2, startY);
@@ -49,9 +70,7 @@ drawIcon("Python", "#73967D", startX + iconSpacing * 2, startY + 200);
 drawIcon("Vue.js", "#689C77", startX + iconSpacing * 3, startY + 200);
 drawIcon("TypeScript", "#5DA271", startX + iconSpacing * 4, startY + 200);
 
-// 아이콘 그리는 함수
 function drawIcon(text, color, x, y) {
-  // 초기 아이콘 색상 저장
   iconColors[text] = color;
 
   function draw() {
@@ -61,7 +80,6 @@ function drawIcon(text, color, x, y) {
     ctx.fillText(text, x + 75, y + 85);
   }
 
-  // 아이콘에 호버 효과 추가
   canvas.addEventListener("mousemove", function (event) {
     var rect = canvas.getBoundingClientRect();
     var mouseX = event.clientX - rect.left;
@@ -69,7 +87,7 @@ function drawIcon(text, color, x, y) {
 
     if (mouseX >= x && mouseX <= x + 150 && mouseY >= y && mouseY <= y + 150) {
       ctx.clearRect(x, y, 150, 150);
-      ctx.fillStyle = "#FFDF71"; // 호버 시 색상 변경
+      ctx.fillStyle = "#FFDF71";
       ctx.fillRect(x, y, 150, 150);
       ctx.fillStyle = "#333333";
       ctx.fillText(text, x + 75, y + 85);
@@ -79,7 +97,6 @@ function drawIcon(text, color, x, y) {
     }
   });
 
-  // 초기 아이콘 그리기
   draw();
 }
 
@@ -97,5 +114,4 @@ function typing() {
 }
 setInterval(typing, 250);
 
-//
 AOS.init();

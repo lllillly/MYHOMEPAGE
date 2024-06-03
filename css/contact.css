@@ -1,6 +1,4 @@
-#current-time {
-    color: #234a658d;
-}
+/* contact.css */
 
 #contact {
     width: 100%;
@@ -8,7 +6,7 @@
     text-align: center;
 }
 
-#contact h4 {
+#contact h2 {
     color: #446c89;
 }
 
