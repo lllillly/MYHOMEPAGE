@@ -1,6 +1,8 @@
 # **HJ'S HOMEPAGE**
 
-## 바로가기
+※ 팝업 허용 해주세요 ! ※
+
+## INDEX
 
 - [THEME COLOR](#theme-color)
 - [STRUCTURE](#structure)
@@ -46,3 +48,17 @@
 #### 미래 계획
 
 - 관심 기술 공부 계획 및 취업 준비 계획 : #tech - 주제 관련 미래 계획
+
+## TECHNOLOGY
+
+- 사용한 기술 일부 :
+
+* Chapter2 : title, h1, div, href
+* Chapter3 : nav, header, footer, input-text
+* Chapter4 : box-shadow, color, background, font
+* Chapter5(CSS) : z-index, visibility, overflow, form, ul-li, scroll-behavior: smooth;, animation
+* Chapter6 : showImage(), addEventListener() - audio & scroll, updateTime() & setInterval(), drawIcon(), typing() & setInterval()
+* Chapter7 : updateTime() - Date()
+* Chapter8 : document.getElementById("current-time" / "techCanvas" / "background-music" / "click-message")
+* Chapter9 : form - mailTo, canvas.addEventListener("mousemove")
+* Chapter10 : window.onload, window.scrollTo
