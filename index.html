@@ -12,13 +12,13 @@
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     </head>
 <body>
-    <header data-aos="fade-down">
+    <header data-aos="fade-down" data-aos-duration="1000">
         <a href="#home"><img id="sign" src="./images/hjsign.png" alt="HJ's Logo"></a>
         <nav id="menunav">
             <ul>
                 <li><a href="#home">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#tech">TECHNOLOGY</a></li>
+                <li><a href="#about">PROFILE</a></li>
+                <li><a href="#tech">INTRODUCE</a></li>
                 <li><a href="#portfolio">PORTFOLIO</a></li>
                 <li><a href="#contact">CONTACT</a></li>
             </ul>
@@ -29,7 +29,7 @@
         <div id="home" class="content_subject_page">
             <img src="./images/laptopimg.png" class="cloudimg">
             <div class="con">
-                <h1 id="home_h1" class="web-developer" data-aos="fade-down">WEB DEVELOPER</h1>
+                <h1 id="home_h1" class="web-developer" data-aos="fade-down" data-aos-duration="1000">WEB DEVELOPER</h1>
                 <p id="click-message" style="color: gray;">아무 곳이나 클릭 시 오디오가 재생됩니다.</p>
                 <div class="text_box" data-trigger>
                     <span class="home_text"></span>
@@ -52,11 +52,11 @@
                     <p id="current-time">현재시각 : </p>
                 </div>
                 <div id="about_card">
-                    <div id="about_card_left"  data-aos="fade-right">
+                    <div id="about_card_left"  data-aos="fade-right" data-aos-duration="1000">
                         <img src="./images/selfiephoto.jpeg" />
                     </div>
                     <div id="about_card_blank"></div>
-                    <div id="about_card_right1"  data-aos="fade-left">
+                    <div id="about_card_right1"  data-aos="zoom-in" data-aos-duration="1000">
                         <p class="bi bi-person-fill"> NAME</p>
                         <p class="bi bi-calendar-check"> BIRTH</p>
                         <p class="bi bi-house-door-fill"> ADDRESS</p>
@@ -64,7 +64,7 @@
                         <p class="bi bi-mortarboard-fill"> SCHOOL</p>
                         <p class="bi bi-github"> GITHUB</p>
                     </div>
-                    <div id="about_card_right2"  data-aos="fade-left">
+                    <div id="about_card_right2"  data-aos="zoom-in" data-aos-duration="1000">
                         <p>방효진(Bang Hyo Jin)</p>
                         <p>2003.05.03</p>
                         <p>충남 공주시</p>
@@ -79,14 +79,14 @@
         <div id="tech" class="content_subject_page">
             <div class="blank"></div>
             <div class="con">
-                <h2>과제 평가 항목</h2>
-                <div class="tech-buttons" data-aos="fade-left">
+                <h2>INTRODUCE</h2>
+                <div class="tech-buttons" data-aos="zoom-out" data-aos-duration="1000">
                     <p style="color: gray;">버튼 호버 시 미리보기가 가능합니다</p>
-                    <a href="./tech.html"><button type="button" class="btn" onmouseover="showImage(1)">본인 소개 페이지</button></a>
-                    <a href="./interest.html"><button type="button" class="btn" onmouseover="showImage(2)">관심 기술 및 관련 기업</button></a>
-                    <a href="./futureplan.html"><button type="button" class="btn" onmouseover="showImage(3)">주제 관련 미래 계획</button></a>
+                    <a href="./tech.html"><button type="button" class="btn" id="back_btn" onmouseover="showImage(1)">본인 소개 페이지</button></a>
+                    <a href="./interest.html"><button type="button" class="btn" id="back_btn" onmouseover="showImage(2)">관심 기술 및 관련 기업</button></a>
+                    <a href="./futureplan.html"><button type="button" class="btn" id="back_btn" onmouseover="showImage(3)">주제 관련 미래 계획</button></a>
                 </div>
-                <div class="tech-images" data-aos="fade-right">
+                <div class="tech-images" data-aos="zoom-in" data-aos-duration="1000">
                     <img src="./images/mypagephoto1.png" width="50%" height="400" class="img1">
                     <img src="./images/mypagephoto2.png" width="50%" height="400" class="img2" style="display: none;">
                     <img src="./images/mypagephoto3.png" width="50%" height="400" class="img3" style="display: none;">
@@ -98,10 +98,12 @@
         <div id="portfolio" class="content_subject_page">
             <div class="blank"></div>
             <div class="con">
-                <h2>본인 역량</h2>
-                <a href="./myproject.html"><button type="submit" class="btn" id="back_btn" data-aos="fade-up">프로젝트 경험</button></a>
+                <h2>PORTFOLIO</h2>
+                <div data-aos="flip-down" data-aos-duration="1000">
+                    <a href="./myproject.html"><button type="submit" class="btn" id="back_btn">프로젝트 경험</button></a>
+                </div>
                 <p>기술 스택</p>
-                <div data-aos="fade-right">
+                <div data-aos="fade-up" data-aos-duration="1000">
                     <canvas id="techCanvas" width="1050" height="450"></canvas>
                     <div id="techCanvasdialog">
                         <p>React Native</p>
@@ -125,15 +127,15 @@
                     <h2>CONTACT</h2>
                     <br>
                     <form id="contact-form" action="mailto:nijoyh0503@gmail.com" method="get" enctype="text/plain">
-                        <div class="form-floating mb-3" data-aos="fade-up">
+                        <div class="form-floating mb-3" data-aos="fade-up" data-aos-duration="1000">
                             <input type="text" class="form-control" id="subject_input" name="subject" placeholder="문의 제목" required>
                             <label for="subject_input">문의 제목:</label>
                         </div>
-                        <div class="form-floating mb-3" data-aos="fade-up">
+                        <div class="form-floating mb-3" data-aos="fade-up" data-aos-duration="1000">
                             <textarea class="form-control" id="contact_textarea" name="body" placeholder="문의 내용" required style="resize: none;"></textarea>
                             <label for="contact_textarea">문의 내용:</label>
                         </div>
-                        <button type="submit" class="btn" id="contactbtn" data-aos="fade-up">문의 메일 보내기</button>
+                        <button type="submit" class="btn" id="contactbtn" data-aos="fade-up" data-aos-duration="1000">문의 메일 보내기</button>
                         <br>
                         <br><br>
                     </form>
@@ -141,7 +143,7 @@
             </div>
         </div>
         <footer id="footer">
-            <p>&copy; 2024 HJ 포트폴리오 | <a href="https://github.com/lllillly/MYHOMEPAGE">본 프로젝트 깃허브 바로가기</a></p>
+            <p>&copy; 2024 HJ 포트폴리오 | <a href="https://github.com/lllillly/MYHOMEPAGE"><button type="submit" class="btn" id="back_btn" style="height: 40px;">본 프로젝트 깃허브 바로가기</button></a></p>
         </footer>
     </div>
     <script src="./js/script.js"></script>

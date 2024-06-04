@@ -1,4 +1,5 @@
 function showImage(imageNumber) {
+  // 테크 이미지
   document.querySelectorAll(".tech-images img").forEach((image) => {
     image.style.display = "none";
   });
@@ -9,6 +10,7 @@ function showImage(imageNumber) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
+  // 오디오
   var audio = document.getElementById("background-music");
   var clickMessage = document.getElementById("click-message");
   audio.volume = 0.3;
@@ -26,12 +28,13 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-var iconColors = {};
-
+// 새로고침
 window.onload = function () {
-  window.scrollTo(0, 0);
+  window.scrollTo(0, 0); // 스크롤 맨 위
+  window.open("https://github.com/lllillly/MYHOMEPAGE"); // 새 창 열기
 };
 
+// 현재 시간
 function updateTime() {
   var now = new Date();
 
@@ -49,6 +52,8 @@ function updateTime() {
 
 setInterval(updateTime, 1000);
 
+var iconColors = {};
+// 캔버스 아이콘
 var canvas = document.getElementById("techCanvas");
 var ctx = canvas.getContext("2d");
 
@@ -79,7 +84,7 @@ function drawIcon(text, color, x, y) {
     ctx.fillStyle = "#FFFFFF";
     ctx.fillText(text, x + 75, y + 85);
   }
-
+  // 아이콘 마우스
   canvas.addEventListener("mousemove", function (event) {
     var rect = canvas.getBoundingClientRect();
     var mouseX = event.clientX - rect.left;
@@ -100,6 +105,7 @@ function drawIcon(text, color, x, y) {
   draw();
 }
 
+//타이핑효과
 const content = "안녕하세요 풀스택 개발자 방효진입니다 :)";
 const hometext = document.querySelector(".home_text");
 let i = 0;
@@ -114,4 +120,5 @@ function typing() {
 }
 setInterval(typing, 250);
 
+// aos 페이드
 AOS.init();
