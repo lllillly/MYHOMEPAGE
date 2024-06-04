@@ -7,6 +7,7 @@
 - [THEME COLOR](#theme-color)
 - [STRUCTURE](#structure)
 - [SUBJECT](#subject)
+- [TECHNOLOGY](#technology)
 
 ## THEME COLOR
 
