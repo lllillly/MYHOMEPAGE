@@ -51,14 +51,15 @@
 
 ## TECHNOLOGY
 
-- 사용한 기술 일부 :
+- 사용한 기술 요약 :
 
 * Chapter2 : title, h1, div, href
 * Chapter3 : nav, header, footer, input-text
 * Chapter4 : box-shadow, color, background, font
-* Chapter5(CSS) : z-index, visibility, overflow, form, ul-li, scroll-behavior: smooth;, animation
+* Chapter5(CSS) : z-index, visibility, overflow, form, ul-li, scroll-behavior: smooth;, animation(@keyframes fadeAnimation)
 * Chapter6 : showImage(), addEventListener() - audio & scroll, updateTime() & setInterval(), drawIcon(), typing() & setInterval()
 * Chapter7 : updateTime() - Date()
 * Chapter8 : document.getElementById("current-time" / "techCanvas" / "background-music" / "click-message")
 * Chapter9 : form - mailTo, canvas.addEventListener("mousemove")
-* Chapter10 : window.onload, window.scrollTo
+* Chapter10 : window.onload(), window.scrollTo(), window.open(mygithub)
+* Chapther11 : rect = canvas.getBoundingClientRect()
