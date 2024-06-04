@@ -3,6 +3,8 @@
 ## 바로가기
 
 - [THEME COLOR](#theme-color)
+- [STRUCTURE](#structure)
+- [SUBJECT](#subject)
 
 ## THEME COLOR
 
@@ -14,7 +16,7 @@
 - ![#234a65](https://via.placeholder.com/15/234a65/000000?text=+) 완전 진한 하늘 #234a65
 - ![#add3ee7b](https://via.placeholder.com/15/add3ee7b/000000?text=+) 투명도 조절 #add3ee7b
 
-## 구조
+## STRUCTURE
 
 > HEADER
 > content
@@ -27,7 +29,7 @@
 
 > FOOTER
 
-## 과제 내용
+## SUBJECT
 
 #### 본인 소개 :
 
