@@ -31,8 +31,12 @@ document.addEventListener("DOMContentLoaded", function () {
 // 새로고침
 window.onload = function () {
   window.scrollTo(0, 0); // 스크롤 맨 위
-  window.open("https://github.com/lllillly/MYHOMEPAGE"); // 새 창 열기
 };
+
+// 새 창 열기
+document.getElementById("git_btn").addEventListener("click", function () {
+  window.open("https://github.com/lllillly/MYHOMEPAGE");
+});
 
 // 현재 시간
 function updateTime() {

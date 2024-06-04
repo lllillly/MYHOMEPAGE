@@ -8,9 +8,8 @@
     height: 100vh;
     padding: 20px;
     text-align: center;
-    background-image: url('../images/cloudy.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
+
+    opacity: 1.0;
 }
 
 #home .cloudimg {
@@ -19,7 +18,7 @@
     right: 0%;
     width: 300px;
     z-index: 9;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 #home .con{
