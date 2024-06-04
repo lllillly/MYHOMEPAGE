@@ -1,9 +1,8 @@
-# HJ'S HOMEPAGE
+# **HJ'S HOMEPAGE**
 
-## 목차
+## 바로가기
 
 - [THEME COLOR](#theme-color)
-- [내용](#dialog)
 
 ## THEME COLOR
 
@@ -15,6 +14,33 @@
 - ![#234a65](https://via.placeholder.com/15/234a65/000000?text=+) 완전 진한 하늘 #234a65
 - ![#add3ee7b](https://via.placeholder.com/15/add3ee7b/000000?text=+) 투명도 조절 #add3ee7b
 
-## dialog
+## 구조
 
-- 내용~
+> HEADER
+> content
+
+- HOME
+- ABOUT
+- TECHNOLOGY
+- PORTFOLIO
+- CONTACT
+
+> FOOTER
+
+## 과제 내용
+
+#### 본인 소개 :
+
+- 주제 선정 동기와 이루고 싶은 목표 : #tech - 본인 소개 페이지 button
+- 본인 성장 과정 : #tech - 본인 소개 페이지 button
+- 최근 사회 이슈와 본인 견해 : #tech - 본인 소개 페이지 button
+- 기술적으로 어려웠던 점 : #tech - 본인 소개 페이지 button
+- 본인 역량 : #portfolio
+
+#### 관심 기술
+
+- 관심 기술 및 관련 기업 : #tech - 관심 기술 및 관련 기업 button
+
+#### 미래 계획
+
+- 관심 기술 공부 계획 및 취업 준비 계획 : #tech - 주제 관련 미래 계획
