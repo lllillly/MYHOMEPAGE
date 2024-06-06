@@ -86,6 +86,7 @@ ul li a:hover {
 
 .scroll_txt_contain {
     height: 30px;
+    z-index: 10;
 }
 
 .scroll_txt {

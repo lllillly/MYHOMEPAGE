@@ -110,7 +110,7 @@ function drawIcon(text, color, x, y) {
 }
 
 //타이핑효과
-const content = "안녕하세요 풀스택 개발자 방효진입니다 :)";
+const content = "안녕하세요 개발자 방효진입니다 :)";
 const hometext = document.querySelector(".home_text");
 let i = 0;
 
@@ -126,3 +126,10 @@ setInterval(typing, 250);
 
 // aos 페이드
 AOS.init();
+
+// scroll 배경
+window.addEventListener("scroll", function () {
+  const parallax = document.querySelector(".parallax-bg");
+  let scrollPosition = window.pageYOffset;
+  parallax.style.transform = "translateY(" + scrollPosition * 0.4 + "px)";
+});
