@@ -18,6 +18,10 @@
     color: #2c6186;
 }
 
+input[type="text"]{
+    background-color: #ddeefa;
+}
+
 #contact_textarea {
     height: 30vh;
     color: #2c6186;

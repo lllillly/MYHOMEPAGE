@@ -1,5 +1,5 @@
 function showImage(imageNumber) {
-  // 테크 이미지
+  // 테크 이미지 //
   document.querySelectorAll(".tech-images img").forEach((image) => {
     image.style.display = "none";
   });
@@ -109,7 +109,7 @@ function drawIcon(text, color, x, y) {
   draw();
 }
 
-//타이핑효과
+//타이핑효과 //
 const content = "안녕하세요 개발자 방효진입니다 :)";
 const hometext = document.querySelector(".home_text");
 let i = 0;
